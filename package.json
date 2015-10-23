@@ -1,0 +1,30 @@
+{
+  "name": "google-oauth-quick-token",
+  "version": "1.0.0",
+  "description": "Simple cli tool to quickly approve and retrieve Google OAuth2 tokens for making request to Google APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name" : "Christopher Imrie"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckimrie/google-oauth-quick-token.git"
+  },
+  "license": "ISC",
+  "bin" : {
+    "google-oauth-quick-token" : "./index.js"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "chalk": "^1.1.1",
+    "googleapis": "^2.1.5",
+    "inquirer": "^0.10.1",
+    "lodash": "^3.10.1",
+    "open": "0.0.5",
+    "request": "^2.65.0"
+  },
+  "preferGlobal": true
+}
